@@ -10,6 +10,8 @@ import CreatePassword from './pages/auth/CreatePassword';
 
 function App() {
 
+  document.title = 'Echo Craft Hub';
+  
   return (
     <>
       <Router>

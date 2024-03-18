@@ -1,5 +1,6 @@
 import SearchIcon from '@mui/icons-material/Search';
-import { FormControl, OutlinedInput, TextField, Button } from "@mui/material";
+import { FormControl, OutlinedInput, TextField } from "@mui/material";
+import Button from "../../components/ui/Button";
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -12,7 +13,7 @@ export default function Header() {
                             <div className="flex items-center">
                                 <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
                             
-                                <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+                                <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined" className='ml-20'>
                                     <OutlinedInput
                                         placeholder="Search"
                                         id="outlined-adornment-weight"
@@ -40,8 +41,8 @@ export default function Header() {
                             <div className="flex align-center space-x-4">
                                 <div className="flex align-center space-x-4">
 
-                                    <Link to={'/sign-in'}><Button variant="outlined">Sign In</Button></Link>
-                                    <Link to={'/sign-up'}><Button type="button" variant="contained" className='bg-primary text-white'>Sign Up</Button></Link>
+                                    <Link to={'/sign-in'}><Button variant='outlined' text={'Sign In'} className='py-2' /></Link>
+                                    <Link to={'/sign-up'}><Button variant="contained" text={'Sign Up'} className='py-2' /></Link>
                                 </div>
                                 
                             </div>

@@ -4,9 +4,15 @@ import { Link } from "react-router-dom";
 import Button from "../../components/ui/Button";
 import google from '../../assets/google.svg'
 import facebook from '../../assets/facebook.svg'
+import { useEffect } from "react";
 
 
 export default function SignIp() {
+
+    useEffect(() => {
+        document.title = 'Sign In | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
             <div className="flex">

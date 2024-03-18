@@ -1,8 +1,14 @@
 import background from "../../assets/images/auth-backgrounds/verification.jpeg";
 import TextInput from "../../components/form-elements/TextInput";
 import Button from "../../components/ui/Button";
+import { useEffect } from "react";
 
 export default function Verification() {
+    
+    useEffect(() => {
+        document.title = 'Verify | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
             <div className="flex">

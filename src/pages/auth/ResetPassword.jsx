@@ -2,8 +2,14 @@ import { Link } from "react-router-dom";
 import background from "../../assets/images/auth-backgrounds/reset-password.jpeg";
 import TextInput from "../../components/form-elements/TextInput";
 import Button from "../../components/ui/Button";
+import { useEffect } from "react";
 
 export default function ResetPassword() {
+
+    useEffect(() => {
+        document.title = 'Reset Password | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
             <div className="flex">

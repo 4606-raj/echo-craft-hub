@@ -5,9 +5,15 @@ import { Link } from "react-router-dom";
 import Button from "../../components/ui/Button";
 import google from '../../assets/google.svg'
 import facebook from '../../assets/facebook.svg'
+import { useEffect } from "react";
 
 
 export default function SignUp() {
+
+    useEffect(() => {
+        document.title = 'Sign Up | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
 

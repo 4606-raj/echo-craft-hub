@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import background from "../../assets/images/auth-backgrounds/check-email.jpeg";
+import { useEffect } from "react";
 
 export default function CheckEmail() {
+
+    useEffect(() => {
+        document.title = 'Check Email | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
             <div className="flex">

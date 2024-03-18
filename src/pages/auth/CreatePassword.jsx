@@ -1,8 +1,14 @@
 import background from "../../assets/images/auth-backgrounds/create-password.jpeg";
 import TextInput from "../../components/form-elements/TextInput";
 import Button from "../../components/ui/Button";
+import { useEffect } from "react";
 
 export default function CreatePassword() {
+
+    useEffect(() => {
+        document.title = 'Create Password | Echo Craft Hub';
+    }, [])
+    
     return (
         <div>
             <div className="flex">
