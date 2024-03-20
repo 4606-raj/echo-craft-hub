@@ -21,10 +21,10 @@ export default function Verification() {
                             <p>Verfiy your code</p>
 
                             <TextInput 
-                                label="Code:"
-                                labelClassList="block text-gray-700 text-sm mb-2 mt-10" 
+                                label="Code:" 
                                 name="code" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="Code" 
+                                className="w-full p-2 border rounded-md"
                                 type="number"
                             />
 

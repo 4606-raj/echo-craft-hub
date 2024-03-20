@@ -22,17 +22,17 @@ export default function CreatePassword() {
 
                             <TextInput 
                                 label="Passowrd:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="passowrd" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="password" 
+                                className="w-full p-2 border rounded-md"
                                 type="passowrd"
                             />
 
                             <TextInput 
                                 label="Confirm Passowrd:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="passowrd_confirmation" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="Confirm Password"
+                                className="w-full p-2 border rounded-md"
                                 type="passowrd"
                             />
 

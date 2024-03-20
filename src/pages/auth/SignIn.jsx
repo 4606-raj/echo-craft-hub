@@ -42,16 +42,16 @@ export default function SignIp() {
                             
                             <TextInput 
                                 label="Email:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="email" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="Email"
+                                className="w-full p-2 border rounded-md"
                             />
 
                             <TextInput 
                                 label="Password:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="password" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="password" 
+                                className="w-full p-2 border rounded-md"
                                 type="password"
                             />
 

@@ -44,39 +44,38 @@ export default function SignUp() {
 
                             <TextInput 
                                 label="Username:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="username" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="username" 
+                                className="w-full p-2 border rounded-md"
                             />
 
                             <TextInput 
                                 label="Email:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="email" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="email" 
+                                className="w-full p-2 border rounded-md"
                             />
 
                             <TextInput 
                                 label="Password:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="password" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="password" 
+                                className="w-full p-2 border rounded-md"
                                 type="password"
                             />
 
                             <TextInput 
                                 label="Confirm Password:"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="password_confirmation" 
-                                classList="w-full p-2 border rounded-md"
+                                placeholder="password confirmation" 
+                                className="w-full p-2 border rounded-md"
                                 type="password"
                             />
 
                             <Checkbox
                                 label="Agree to Terms and Conditions"
-                                labelClassList="block text-gray-700 text-sm mb-2" 
                                 name="term_and_conditions" 
-                                classList="border rounded-md"
+                                className="border rounded-md"
                             />
 
                             <Button
