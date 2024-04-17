@@ -7,6 +7,7 @@ import ResetPassword from './pages/auth/ResetPassword';
 import CheckEmail from './pages/auth/CheckEmail';
 import Verification from './pages/auth/Verification';
 import CreatePassword from './pages/auth/CreatePassword';
+import Home from './pages/home/Home';
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
             <Route path="check-email" element={<CheckEmail />} />
             <Route path="verification" element={<Verification />} />
             <Route path="create-password" element={<CreatePassword />} />
+
+            <Route path="/" element={<Home />} />
 
           </Routes>
         </MainLayout>
